@@ -1,3 +1,4 @@
+import 'package:devlearning_indo/pages/home.dart';
 import 'package:devlearning_indo/pages/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
         fontFamily: 'Poppins',
       ),
-      home: const LoginScreen(),
+      home: Home(),
     );
   }
 }
